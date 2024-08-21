@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-10px, -10px); }
+    50% { transform: translate(10px, 10px); }
+    75% { transform: translate(-10px, 10px); }
+    100% { transform: translate(0, 0); }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #745296; 
+    color: #91F5AD; 
+    font-family: 'New Amsterdam', sans-serif; 
+    animation: shake 0.2s infinite;
+    font-size: calc(10vw + 2rem);
+    overflow: hidden; 
+}
